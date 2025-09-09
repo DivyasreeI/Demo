@@ -1,23 +1,23 @@
 public class Sample
 {
 
- int a =10, b=5;
-public void add()
+
+public void add(int a, int b)
 {
   System.out.println(a+b);
 }
 
-public void sub()
+public void sub(int a, int b)
 {
    System.out.println(a-b);
 }
 
-public void mul()
+public void mul(int a, int b)
 {
     System.out.println(a*b);
 }
 
-public void div()
+public void div(int a, int b)
 {
    System.out.println(a/b);
 }
@@ -28,13 +28,13 @@ public static void main(String[] args)
  
  Sample s = new Sample();
 
-s.add();
+s.add(10,20);
 
-s.sub();
+s.sub(40,25);
 
-s.mul();
+s.mul(10,15);
 
-s.div();
+s.div(100,25);
 
  
 
